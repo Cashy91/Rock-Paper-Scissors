@@ -1,6 +1,6 @@
 <h1>Rock, Paper, Scissors</h1>
 
-<h3> Rock, Paper, Scissors is a site where you can play the game with the same name and challenge a computer. A place for people to casually drop by for a few rounds. Perfect for when your on your way to work or during a break.
+<p> Rock, Paper, Scissors is a site where you can play the game with the same name and challenge a computer. A place for people to casually drop by for a few rounds. Perfect for when your on your way to work or during a break.</p>
 
 <br>
 <h1>Features</h1>
