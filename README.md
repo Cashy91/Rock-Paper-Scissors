@@ -12,7 +12,7 @@
 <p>Indicates to the user what is expected of them to do to move forward in the game.</p>
 
 <p>Game area:</p>
-<p>This area is where the user plays the game. It shows the options of Paper, Rock and Scissor. After a move is made the conputer will follow with its choice.
+<p>This area is where the user plays the game. It shows the options of Paper, Rock and Scissor. After a move is made the computer will follow with its choice.
 
 <p>Score Board:</p>
 <p>This shows the standings between the player and the computer, it gets updated after every round.</p>
