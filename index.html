@@ -1,36 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/styling.css">
-    <title>Rock, Paper, Scissor</title>
-</head>
-<body>
- <h1>Welcome to Rock, Paper, Scissors!</h1>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/assets/css/styling.css">
+        <title>Rock, Paper, Scissor</title>
+    </head>
+    <body>
+        <div id="app">
+            <h1>Welcome to Rock, Paper, Scissors!</h1>
 
- <p>Make your move!</p>
- 
-<section>
-    <div>
-        <img>
-    </div>
-    <div>
-        <img>
-    </div>
-    <div>
-        <img>
-    </div>
-</section> 
+            <h2>Make your move!</h2>
+            
+            <div class="flex-container">
+                <div class="flex-item hover">
+                    <img src="/assets/images/Rock.png">
+                    <h3>Rock</h3>
+                </div>
+                <div class="flex-item hover">
+                    <img src="/assets/images/Paper.png">
+                    <h3>Paper</h3>
+                </div>
+                <div class="flex-item hover">
+                    <img src="/assets/images/Scissors.png">
+                    <h3>Scissors</h3>
+                </div>
+            </div> 
 
-<div>
-    <p>Player Score</p>
-    <p>Computer Score</p>
-</div>
+            <div class="flex-container">
+                <div class="flex-item">
+                    <p class="text-right">Scoreboard:</p>
+                </div>
+                <div class="flex-item">
+                    <p>Player: <span id="player-score">0</span></p>
+                </div>
+                <div class="flex-item">
+                    <p class="text-left">Computer: <span id="computer-score">0</span></p>
+                </div>
+            </div> 
 
-<p>Rules</p>
+            <button>Reset score</button>
 
-    <script src="script.js"></script>
-</body>
+            <p class="small">Rock smashes Scissor. Paper takes Rock. Scissor clips Paper.</p>
+        </div>
+        <script src="script.js"></script>
+    </body>
 </html>
