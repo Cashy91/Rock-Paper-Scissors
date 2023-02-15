@@ -1,3 +1,5 @@
+/* Base styling*/
+
 body {
     margin: 0;
     text-align: center;
@@ -10,6 +12,8 @@ body {
     max-width: 1000px;
     margin: 0 auto;
 }
+
+/* Game area styling*/
 
 .flex-container {
     display: flex;
@@ -67,10 +71,14 @@ p {
     text-align: left;
 }
 
+/* Footer */
+
 .small {
     font-size: 14px;
     font-weight: bold;
 }
+
+/* Reset Button */
 
 button {
     background-color: #FFC73Dff;
