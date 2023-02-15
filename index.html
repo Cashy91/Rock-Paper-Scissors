@@ -16,16 +16,20 @@
 
             <h2>Make your move!</h2>
             
+            <h3 id="equalResult" style="display: none;">Draw</h3>
+            <h3 id="winResult" style="display: none;">You win</h3>
+            <h3 id="lossResult" style="display: none;">You lose</h3>
+            
             <div class="flex-container">
-                <div class="flex-item hover">
+                <div class="flex-item hover" onclick="playerChoice('Rock')">
                     <img src="/assets/images/Rock.png">
                     <h3>Rock</h3>
                 </div>
-                <div class="flex-item hover">
+                <div class="flex-item hover" onclick="playerChoice('Paper')">
                     <img src="/assets/images/Paper.png">
                     <h3>Paper</h3>
                 </div>
-                <div class="flex-item hover">
+                <div class="flex-item hover" onclick="playerChoice('Scissors')">
                     <img src="/assets/images/Scissors.png">
                     <h3>Scissors</h3>
                 </div>
@@ -36,14 +40,14 @@
                     <p class="text-right">Scoreboard:</p>
                 </div>
                 <div class="flex-item">
-                    <p>Player: <span id="player-score">0</span></p>
+                    <p>Player: <span id="playerScore">0</span></p>
                 </div>
                 <div class="flex-item">
-                    <p class="text-left">Computer: <span id="computer-score">0</span></p>
+                    <p class="text-left">Computer: <span id="computerScore">0</span></p>
                 </div>
             </div> 
 
-            <button>Reset score</button>
+            <button type="button" onclick="resetScore()">Reset score</button>
 
             <p class="small">Rock smashes Scissor. Paper takes Rock. Scissor clips Paper.</p>
         </div>
