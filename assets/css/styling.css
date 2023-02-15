@@ -88,4 +88,5 @@ button {
     border: 3px #090909ff solid;
     text-transform: uppercase;
     font-weight: bold;
+    cursor: pointer;
 }
