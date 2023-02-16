@@ -8,7 +8,7 @@ body {
 
 #app {
     padding: 30px;
-    width: 100%;
+    width: calc(100% - 60px);
     max-width: 1000px;
     margin: 0 auto;
 }
