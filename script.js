@@ -7,7 +7,7 @@ function renderChoices() {
         console.log(choices[i]);
     }
 }
-renderChoices() 
+renderChoices(); 
 
 /* player and computer choice calc*/
 
@@ -21,11 +21,11 @@ function playerChoice(val) {
     }
     else if (val === "Rock" && computerChoice === "Scissors" || val === "Paper" && computerChoice === "Rock" || val === "Scissors" && computerChoice === "Paper") {
         document.getElementById("winResult").style.display = "block";
-        playerScore++
+        playerScore++;
     }
     else {
         document.getElementById("lossResult").style.display = "block";
-        computerScore++
+        computerScore++;
     }
     document.getElementById("playerScore").innerHTML = playerScore;
     document.getElementById("computerScore").innerHTML = computerScore;
