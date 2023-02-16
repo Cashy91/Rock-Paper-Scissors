@@ -90,3 +90,11 @@ button {
     font-weight: bold;
     cursor: pointer;
 }
+
+/* Game message*/
+
+#equalResult, #winResult, #lossResult {
+    font-size: 40px;
+    margin: auto;
+    padding-bottom: 20px;
+}
