@@ -1,6 +1,6 @@
 let choices = ["Rock", "Paper", "Scissors"];
-let playerScore = 0
-let computerScore = 0
+let playerScore = 0;
+let computerScore = 0;
 
 function renderChoices() {
     for (let i = 0; i < choices.length; i++) {
@@ -12,9 +12,9 @@ renderChoices()
 /* player and computer choice calc*/
 
 function playerChoice(val) {
-    document.getElementById("equalResult").style.display = "none"
-    document.getElementById("winResult").style.display = "none"
-    document.getElementById("lossResult").style.display = "none"
+    document.getElementById("equalResult").style.display = "none";
+    document.getElementById("winResult").style.display = "none";
+    document.getElementById("lossResult").style.display = "none";
     const computerChoice = choices[Math.floor(Math.random() * choices.length)];
     if (val === computerChoice) {
         document.getElementById("equalResult").style.display = "block";
@@ -35,11 +35,11 @@ function playerChoice(val) {
 /* Score reset function for button */
 
 function resetScore() {
-    document.getElementById("equalResult").style.display = "none"
-    document.getElementById("winResult").style.display = "none"
-    document.getElementById("lossResult").style.display = "none"
-    playerScore = 0
-    computerScore = 0
+    document.getElementById("equalResult").style.display = "none";
+    document.getElementById("winResult").style.display = "none";
+    document.getElementById("lossResult").style.display = "none";
+    playerScore = 0;
+    computerScore = 0;
     document.getElementById("playerScore").innerHTML = playerScore;
     document.getElementById("computerScore").innerHTML = computerScore;
 }
