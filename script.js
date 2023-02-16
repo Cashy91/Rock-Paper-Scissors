@@ -2,10 +2,18 @@ let choices = ["Rock", "Paper", "Scissors"];
 let playerScore = 0;
 let computerScore = 0;
 
+/* Forloop to render HTML */
+
 function renderChoices() {
+    let html = "";
     for (let i = 0; i < choices.length; i++) {
-        console.log(choices[i]);
+        html += `<div class="flex-item hover" onclick="playerChoice('${choices[i]}')">
+                        <img src="assets/images/${choices[i]}.png">
+                        <h3>${choices[i]}</h3>
+                    </div>`
+        
     }
+    document.getElementById("choices").innerHTML = html
 }
 renderChoices(); 
 
