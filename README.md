@@ -41,6 +41,11 @@ HTML validation: https://validator.w3.org/nu/?doc=https%3A%2F%2Fcashy91.github.i
 
 CSS validation: https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fcashy91.github.io%2FRock-Paper-Scissors%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv
 
+Javascript validation: 
+
+![A image of the Javascript validation](./assets/README-images/jsvalidation.png)
+
+
 
     
     
