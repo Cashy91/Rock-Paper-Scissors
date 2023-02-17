@@ -10,10 +10,10 @@ function renderChoices() {
         html += `<div class="flex-item hover" onclick="playerChoice('${choices[i]}')">
                         <img src="assets/images/${choices[i]}.png">
                         <h3>${choices[i]}</h3>
-                    </div>`
+                </div>`;
         
     }
-    document.getElementById("choices").innerHTML = html
+    document.getElementById("choices").innerHTML = html;
 }
 renderChoices(); 
 
