@@ -44,17 +44,17 @@
 * ## Validations
 <br>
 
-* ### HTML
+* ### **HTML**
 <br> 
 <ol>No errors found when running the code through the W3C validator.
 <br>https://validator.w3.org/nu/?doc=https%3A%2F%2Fcashy91.github.io%2FRock-Paper-Scissors%2F </ol>
 <br>
 
-* ### CSS: 
+* ### **CSS:** 
 <ol>No errors found when running the code through the Jigsaw validator.
  <br> https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fcashy91.github.io%2FRock-Paper-Scissors%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv </ol>
 
-* ### Javascript:
+* ### **Javascript:**
 <br> 
 
 <ol> No errors found when running the code through the Jshint validator.
@@ -63,10 +63,10 @@
 
 ![A image of the Javascript validation](./assets/README-images/jsvalidation.png) </ol>
 
-## Browser Testing
+## **Browser Testing**
 <br>
 
-* ### Google Chrome
+* ### **Google Chrome**
 <br>
 
 <p>Tested with Chrome developer tools for 
@@ -86,7 +86,7 @@
 
 <br>
 
-* ### Microsoft Edge
+* ### **Microsoft Edge**
 <br>
 
 <p>Tested with Microsoft Edge developer tools for 
@@ -95,6 +95,37 @@
 <br>Ipad Mini
 <br>Laptop L (1440px)
 <br>Desktop mode
+
+<br>
+
+## **Function testing**
+<br>
+
+###  **Hover over images**
+<br>
+1. When the user hover over the image of rock,paper or scissor the image currently hovered should get a black border around it.
+<br>2. When the mouse is removed from the image the border should disappear.
+
+<br>
+
+### **Selecting a image**
+<br>
+1. When the user clicks on a image the computer should get a random choice.
+<br>2. Text should apear about the images with a message indicating if the round is a win,draw or loss.
+<br>3. The scoreboard below should be updated accordingly. 
+<br>4. When the user makes a new choice the round text from the last choice above the images should be replaced by a new one.
+
+<br>
+
+### **Reseting the score**
+<br>
+1. If no round of the game has been played nothing will happend when the RESET SCORE button it clicked.
+<br>2. When the the user clicks on the button below the scoreboard
+the scorebord should be reset to 0-0.
+<br>3. If the user have played any round when the button is clicked the result text above the images should dissapear.
+
+
+
 
 
 
