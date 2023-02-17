@@ -98,3 +98,11 @@ button {
     margin: auto;
     padding-bottom: 20px;
 }
+
+/* Media query for sub 400px */
+
+@media only screen and (max-width: 400px) {
+    .text-left {
+        text-align: center;
+    }
+}
