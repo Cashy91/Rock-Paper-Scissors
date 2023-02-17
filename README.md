@@ -69,7 +69,8 @@
 * ### **Google Chrome**
 <br>
 
-<p>Tested with Chrome developer tools for 
+<p>Tested with Chrome developer tools for
+
 <br>Mobile large (425px) 
 <br>Tablet (768px)
 <br>Laptop Large (1440px)</p>
@@ -79,6 +80,7 @@
 <br>
 
 <p>Tested with Firefox developer tools for
+
 <br>iphone 12/13 
 <br>ipad Air
 <br>Laptop with HiDPI screen
@@ -90,7 +92,7 @@
 <br>
 
 <p>Tested with Microsoft Edge developer tools for 
-<br>
+
 <br>Samsung Galaxy S8+
 <br>Ipad Mini
 <br>Laptop L (1440px)
@@ -123,6 +125,38 @@
 <br>2. When the the user clicks on the button below the scoreboard
 the scorebord should be reset to 0-0.
 <br>3. If the user have played any round when the button is clicked the result text above the images should dissapear.
+
+<br>
+
+# Deployment on Github
+
+<br>1. Open the correct repository.
+<br>2. Select settings in the menu.
+<br>3. Click on the pages section in the side menu.
+<br>4. Go down to Branch and select main in the dropdown.
+<br>5. Save the changes and wait for a link that should apear at the top of the screen under Github Pages. Letting you know that the page is live.
+(If nothing has happened after a few minutes refresh the page and the link should apear.)
+
+<br>
+
+# Credits
+
+<br>The image was taken and then edited to fit my project.<br>
+https://stackcodify.com/2021/06/rock-paper-scissors-in-the-dom/
+
+<br> The font was taken from Googlefonts<br>
+https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap
+
+<br>Color palette was generated using https://coolors.co/image-picker<br>
+/* CSS HEX */
+--black: #090909ff;
+--white: #FFFFFFff;
+--sunglow: #FFC73Dff;
+#D48C07ff;
+
+<br>Extra credit to my mentor for helping with planning and giving great feedback to help the project through its roughpatches.
+
+
 
 
 
