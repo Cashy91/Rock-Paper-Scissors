@@ -102,7 +102,14 @@ button {
 /* Media query for sub 400px */
 
 @media only screen and (max-width: 400px) {
-    .text-left {
+    .flex-container {
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .text-left, .text-right {
         text-align: center;
     }
 }
