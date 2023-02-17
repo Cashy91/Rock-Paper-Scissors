@@ -37,6 +37,10 @@
 
 ![A image of the game rules](./assets/README-images/Rockpaperscissors-rules.png)
 
+HTML validation: https://validator.w3.org/nu/?doc=https%3A%2F%2Fcashy91.github.io%2FRock-Paper-Scissors%2F
+
+CSS validation: 
+
 
     
     
