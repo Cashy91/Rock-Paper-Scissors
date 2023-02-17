@@ -2,7 +2,7 @@ let choices = ["Rock", "Paper", "Scissors"];
 let playerScore = 0;
 let computerScore = 0;
 
-/* Forloop to render HTML */
+/**  Forloop to render HTML */
 
 function renderChoices() {
     let html = "";
@@ -17,7 +17,7 @@ function renderChoices() {
 }
 renderChoices(); 
 
-/* player and computer choice calc*/
+/**  player and computer choice calc */
 
 function playerChoice(val) {
     document.getElementById("equalResult").style.display = "none";
@@ -40,7 +40,7 @@ function playerChoice(val) {
     
 }
 
-/* Score reset function for button */
+/**  Score reset function for button */
 
 function resetScore() {
     document.getElementById("equalResult").style.display = "none";
